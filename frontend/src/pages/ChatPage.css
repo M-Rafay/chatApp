@@ -1,0 +1,35 @@
+.ChatPage .msgCont {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	box-sizing: border-box;
+	margin: 2em;
+}
+.ChatPage .msgCont .msgBox {
+	box-sizing: border-box;
+	padding: 2em;
+	margin: 0 auto;
+
+	width: 500px;
+	height: 500px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.5);
+
+	display: flex;
+	flex-direction: column;
+}
+.ChatPage .msgCont .msgBox .msgDisplay {
+	flex: 5;
+	margin-bottom: 1em;
+
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+
+	overflow-y: scroll;
+}
+.ChatPage .msgCont .msgBox form {
+	flex: 1;
+}
